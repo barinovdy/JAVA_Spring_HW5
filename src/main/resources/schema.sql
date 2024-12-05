@@ -1,0 +1,6 @@
+CREATE TABLE persons (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    age int NOT NULL,
+    email VARCHAR(50)
+);
